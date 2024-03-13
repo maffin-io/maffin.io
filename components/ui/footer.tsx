@@ -6,13 +6,12 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer>
+    <footer id="footer">
       <div className="py-12 md:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
           <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
-
-            <div className="md:col-span-4 lg:col-span-5">
+            <div className="md:col-span-2 lg:col-span-3">
               <div className="mb-2">
                 <Link href="/" className="inline-block" aria-label="Maffin">
                   <Image
@@ -40,8 +39,15 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-3">
-              <div className="text-sm justify-end">
+            <div className="md:col-span-10 lg:col-span-9 grid sm:grid-cols-4 gap-8">
+              <div className="col-span-2">
+                <iframe
+                  src="https://embeds.beehiiv.com/449483bd-b041-44a8-af2a-7e21b974d218?slim=true"
+                  data-test-id="beehiiv-embed"
+                  className="m-0 w-full"
+                 />
+              </div>
+              <div className="text-sm sm:col-start-4 justify-end">
                 <h6 className="font-medium mb-1">Resources</h6>
                 <ul>
                   <li className="mb-1">
@@ -81,14 +87,6 @@ export default function Footer() {
                     </Link>
                   </li>
                 </ul>
-              </div>
-              <div className="col-span-2">
-                <iframe
-                  src="https://embeds.beehiiv.com/449483bd-b041-44a8-af2a-7e21b974d218?slim=true"
-                  data-test-id="beehiiv-embed"
-                  scrolling="no"
-                  className="m-0 w-full"
-                 />
               </div>
             </div>
 
