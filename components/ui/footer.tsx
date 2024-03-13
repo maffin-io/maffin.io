@@ -40,7 +40,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-1">
+            <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-3">
               <div className="text-sm justify-end">
                 <h6 className="font-medium mb-1">Resources</h6>
                 <ul>
@@ -81,6 +81,14 @@ export default function Footer() {
                     </Link>
                   </li>
                 </ul>
+              </div>
+              <div className="col-span-2">
+                <iframe
+                  src="https://embeds.beehiiv.com/449483bd-b041-44a8-af2a-7e21b974d218?slim=true"
+                  data-test-id="beehiiv-embed"
+                  scrolling="no"
+                  className="m-0 w-full"
+                 />
               </div>
             </div>
 
