@@ -22,11 +22,18 @@ export default function Hero() {
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
-                  className="btn-cta"
-                  href="#0"
+                  className="btn-cta mb-3"
+                  href="https://demo.maffin.io"
+                  target="_blank"
                 >
                   Start Maffin'
                 </a>
+                <p className="text-xs">
+                  Demo access for now! We are still working on our pricing model
+                </p>
+                <p className="text-xs">
+                  (don't worry, there will be a free option).
+                </p>
               </div>
             </div>
           </div>

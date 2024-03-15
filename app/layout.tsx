@@ -1,6 +1,8 @@
-import './css/style.css'
-
+import type { Metadata } from 'next'
 import { Inter, Architects_Daughter } from 'next/font/google'
+import Script from 'next/script'
+
+import './css/style.css'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -15,9 +17,9 @@ const architects_daughter = Architects_Daughter({
   display: 'swap'
 })
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Maffin',
-  description: 'Personal finance made easy',
+  description: 'Navigate your financial journey with clarity and confidence',
   icons: {
     icon: [
       {
@@ -41,6 +43,20 @@ export default function RootLayout({
         >
           {children}
         </div>
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-SV6Z6WNKH8');
+          `}
+        </Script>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-SV6Z6WNKH8`}
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )

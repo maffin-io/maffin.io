@@ -79,7 +79,7 @@ export default function Footer() {
                   </li>
                   <li className="mb-1">
                     <Link
-                      href="https://changemap.co/maffin/maffin-app/"
+                      href="https://github.com/maffin-io/maffin-app/discussions"
                       className="text-gray-400 transition duration-150 ease-in-out"
                       target="_blank"
                     >
