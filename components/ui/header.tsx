@@ -16,7 +16,7 @@ export default function Header() {
                 alt="logo"
                 width="50"
               />
-              <span className="font-bold text-4xl text-slate-600 hidden lg:block">affin</span>
+              <span className="font-semibold text-4xl text-slate-600 hidden lg:block">affin</span>
             </Link>
           </div>
 

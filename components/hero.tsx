@@ -28,12 +28,14 @@ export default function Hero() {
                 >
                   Start Maffin'
                 </a>
-                <p className="text-xs">
-                  Demo access for now! We are still working on our pricing model
-                </p>
-                <p className="text-xs">
-                  (don't worry, there will be a free option).
-                </p>
+                <div className="bg-cyan-600/30 p-2 text-slate-500 rounded-md">
+                  <p className="text-xs">
+                    Demo access for now! We are still working on our pricing model
+                  </p>
+                  <p className="text-xs">
+                    (don't worry, there will be a free option).
+                  </p>
+                </div>
               </div>
             </div>
           </div>

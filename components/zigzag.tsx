@@ -104,7 +104,7 @@ export default function Zigzag() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-full mx-auto md:max-w-none h-auto shadow-2xl rounded-lg bg-slate-200 shadow-green-600"
                   src={FeatImage03}
                   width={540}
                   height={405}
@@ -132,6 +132,15 @@ export default function Zigzag() {
                       <span>You can remove it whenever you want</span>
                     </li>
                   </ul>
+                  <div className="mt-7">
+                    <Link
+                      href="https://demo.maffin.io/dashboard/accounts/1899043a-a21a-447a-87d9-3abd84e"
+                      className="btn-cta"
+                      target="_blank"
+                    >
+                      Check it out!
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
