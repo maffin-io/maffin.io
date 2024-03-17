@@ -116,7 +116,7 @@ export default function Zigzag() {
                   <div className="font-architects-daughter text-xl text-cyan-600 mb-2">Transparency, our value</div>
                   <h3 className="h3 mb-3">Your financial data is yours</h3>
                   <p className="text-gray-400 mb-4">
-                    We can't and we don't want to see your data.
+                    We can't and don't want to see your data.
                   </p>
                   <ul className="text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
