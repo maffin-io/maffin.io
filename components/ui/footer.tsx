@@ -41,10 +41,13 @@ export default function Footer() {
 
             <div className="md:col-span-10 lg:col-span-9 grid sm:grid-cols-4 gap-8">
               <div className="col-span-2">
+                <span className="h4 font-normal bg-clip-text text-transparent bg-gradient-to-r from-green-600/70 to-cyan-600/70">
+                  Stay in the loop
+                </span>
                 <iframe
                   src="https://embeds.beehiiv.com/449483bd-b041-44a8-af2a-7e21b974d218?slim=true"
                   data-test-id="beehiiv-embed"
-                  className="m-0 w-full"
+                  className="m-0 mt-5 w-full"
                  />
               </div>
               <div className="text-sm sm:col-start-4 justify-end">
@@ -89,10 +92,6 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-
-          </div>
-
-          <div className="md:flex md:items-center md:justify-between">
           </div>
         </div>
       </div>
