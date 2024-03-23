@@ -134,7 +134,7 @@ export default function Zigzag() {
                   </ul>
                   <div className="mt-7">
                     <Link
-                      href="https://demo.maffin.io/dashboard/accounts/1899043a-a21a-447a-87d9-3abd84e"
+                      href="https://github.com/maffin-io/maffin-app/blob/master/src/lib/storage/GDriveBookStorage.ts"
                       className="btn-cta"
                       target="_blank"
                     >
