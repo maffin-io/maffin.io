@@ -64,7 +64,7 @@ export default function Footer() {
                   </li>
                   <li className="mb-1">
                     <Link
-                      href="https://blog.maffin.io/docs"
+                      href="https://docs.maffin.io"
                       className="text-gray-400 transition duration-150 ease-in-out"
                       target="_blank"
                     >
