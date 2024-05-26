@@ -23,7 +23,7 @@ export default function Hero() {
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
                   className="btn-cta mb-3"
-                  href="https://free.maffin.io"
+                  href="https://app.maffin.io"
                   target="_blank"
                 >
                   Start Maffin'
